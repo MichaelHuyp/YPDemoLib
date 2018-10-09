@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YPDemoLib_Example' do
+  pod 'YPDemoLib', :path => '../'
+
+  target 'YPDemoLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
