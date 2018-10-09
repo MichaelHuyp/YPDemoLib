@@ -1,21 +1,22 @@
 //
-//  YPImageVc.m
-//  Pods-YPDemoLib_Example
+//  DEVc.m
+//  YPDemoLib_Example
 //
 //  Created by 胡云鹏 on 2018/10/9.
+//  Copyright © 2018年 胡云鹏. All rights reserved.
 //
 
-#import "YPImageVc.h"
+#import "DEVc.h"
 
-@interface YPImageVc ()
+@interface DEVc ()
 
 @end
 
-@implementation YPImageVc
+@implementation DEVc
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 /*

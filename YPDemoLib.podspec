@@ -18,19 +18,36 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+测试YPDemoLib组件库测试YPDemoLib组件库测试YPDemoLib组件库测试YPDemoLib组件库
                        DESC
 
-  s.homepage         = 'https://github.com/胡云鹏/YPDemoLib'
+  s.homepage         = 'https://github.com/MichaelHuyp/YPDemoLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '胡云鹏' => 'huyunpeng@didichuxing.com' }
-  s.source           = { :git => 'https://github.com/胡云鹏/YPDemoLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MichaelHuyp/YPDemoLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YPDemoLib/Classes/**/*'
+
+  s.subspec 'Category' do |ss|
+    ss.source_files = 'YPDemoLib/Category/*'
+  end
+
+    s.subspec 'YPImageVc' do |ss|
+    ss.source_files = 'YPDemoLib/YPImageVc/*'
+  end
+
+    s.subspec 'YPLoginVc' do |ss|
+    ss.source_files = 'YPDemoLib/YPLoginVc/*'
+    ss.resource_bundles = {
+    'YPDemoLib' => ['YPDemoLib/YPLoginVc/Xib/*']
+  }
+  end
+
+
+
   
   # s.resource_bundles = {
   #   'YPDemoLib' => ['YPDemoLib/Assets/*.png']

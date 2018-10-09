@@ -7,6 +7,10 @@
 //
 
 #import "YPViewController.h"
+#import "NSString+DEAdd.h"
+#import "YPImageVc.h"
+#import "YPLoginVc.h"
+#import "DEVc.h"
 
 @interface YPViewController ()
 
@@ -20,10 +24,12 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//    YPImageVc YPLoginVc
+    YPLoginVc *vc = [YPLoginVc new];
+                     
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

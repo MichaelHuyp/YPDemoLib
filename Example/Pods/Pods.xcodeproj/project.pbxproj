@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E8D5406216C8ED100FEC37A /* NSString+DEAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D5402216C8ED100FEC37A /* NSString+DEAdd.m */; };
-		4E8D5407216C8ED100FEC37A /* NSString+DEAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8D5403216C8ED100FEC37A /* NSString+DEAdd.h */; };
-		4E8D540A216C8EF600FEC37A /* YPImageVc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8D5408216C8EF600FEC37A /* YPImageVc.h */; };
-		4E8D540B216C8EF600FEC37A /* YPImageVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D5409216C8EF600FEC37A /* YPImageVc.m */; };
-		4E8D540F216C8F0500FEC37A /* YPLoginVc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8D540C216C8F0500FEC37A /* YPLoginVc.h */; };
-		4E8D5410216C8F0500FEC37A /* YPLoginVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D540D216C8F0500FEC37A /* YPLoginVc.m */; };
-		4E8D5411216C8F0500FEC37A /* YPLoginVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8D540E216C8F0500FEC37A /* YPLoginVc.xib */; };
+		1D6FE1882CD2A41D6281A17F6D94D07C /* YPDemoLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7129D2C25ABDBEA22B74D86A5629C844 /* YPDemoLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		277D7162017622D42B126E8625357980 /* YPLoginVc.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AB6333DAC18532D002C9C9291A6C12 /* YPLoginVc.m */; };
+		474FCF2647C3FEF2B1920EDE374313F2 /* NSString+DEAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 688D4B4EDBBBA0072DDC931CA09121A1 /* NSString+DEAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EF273BB9820A20B093D07E1B74E62D6 /* Pods-YPDemoLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0076B7F251B242BA58AC3516724F8020 /* Pods-YPDemoLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FBA05705B184759292791E10764701A /* YPDemoLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C70F426FD8AA14F331D24C70A86C483 /* YPDemoLib-dummy.m */; };
 		6498FF8B58C668D90658B55D65B9EC93 /* Pods-YPDemoLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 799D8BD6C1EBF1A8DC7C110EA5DFBEA2 /* Pods-YPDemoLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69513E7B746AD41E9767F588DD521597 /* Pods-YPDemoLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C28DB766C1D38FCC40095D8655208D /* Pods-YPDemoLib_Tests-dummy.m */; };
-		6E8355DB413A3DEB4807218757D5DF9A /* YPDemoLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A145947A5BA2F2C1F7D3F0CF01D3AF7 /* YPDemoLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F255BA659B8A8DE7BCA809F09750774 /* YPDemoLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20FD1F1DA6955D7ED52C226266F2392C /* YPDemoLib.bundle */; };
+		76167617C390BF636E6FCA2682B7D8A6 /* YPImageVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FD171AB12F93694841405F340D351B3F /* YPImageVc.m */; };
 		85BCD731B6EF22939470333D60470CC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		894B5CE194A4F00EB139B4030FC4D5D0 /* Pods-YPDemoLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55903CE16355533EA3FD2100AF654E33 /* Pods-YPDemoLib_Example-dummy.m */; };
 		9C9302D09815D9DC224F1CBA2C96AB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D2AA6E65278D24819BA247724C0AE08B /* YPLoginVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5369927BA389E111B021C44953E01358 /* YPLoginVc.xib */; };
+		DFDA8EA4AF776CA5FCA3703EDB4EE9FF /* YPImageVc.h in Headers */ = {isa = PBXBuildFile; fileRef = 331CFF21924828B56D56A5F365501E58 /* YPImageVc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E118DB90CF17F9E456B14DF2BAA07C14 /* YPLoginVc.h in Headers */ = {isa = PBXBuildFile; fileRef = 48EAB8BECCCAD9623F552055880EC609 /* YPLoginVc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E7087564D05C1ABB9712F064690F91 /* NSString+DEAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA31EE373CAA7D7739511C6E839B9A2 /* NSString+DEAdd.m */; };
 		E98E80F9E8697DB639BD6F3E596B65C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		FBA93B5F138BC7617F269502EEA00B82 /* YPDemoLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F88B0DEFCD697B7107DE9F81C7D459 /* YPDemoLib-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4914249080139F3FB439AC03D2359B73;
 			remoteInfo = "Pods-YPDemoLib_Example";
+		};
+		BB0E855158D44AAE09E8B4D435290C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02423DF29148D3FD5C2DA1FBB713BF65;
+			remoteInfo = "YPDemoLib-YPDemoLib";
 		};
 		EFA1EE0EF024439F00E180E817E10FC9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -44,43 +52,45 @@
 
 /* Begin PBXFileReference section */
 		0076B7F251B242BA58AC3516724F8020 /* Pods-YPDemoLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YPDemoLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		0A145947A5BA2F2C1F7D3F0CF01D3AF7 /* YPDemoLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPDemoLib-umbrella.h"; sourceTree = "<group>"; };
 		0BEBEE03E1273D1A7FEA88E4D5592C37 /* Pods-YPDemoLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPDemoLib_Example-Info.plist"; sourceTree = "<group>"; };
-		1573799C1B7B5ACA0F2FAADA033834EE /* YPDemoLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YPDemoLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA31EE373CAA7D7739511C6E839B9A2 /* NSString+DEAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DEAdd.m"; path = "YPDemoLib/Category/NSString+DEAdd.m"; sourceTree = "<group>"; };
 		187FCCCB2BBDF28FF3C81E375F0F36A2 /* Pods-YPDemoLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPDemoLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A38823D514D51A89428050827CAED74 /* Pods-YPDemoLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YPDemoLib_Tests.modulemap"; sourceTree = "<group>"; };
 		1E7375D0D6EBE4FB2A67501D72AEB0A0 /* Pods-YPDemoLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPDemoLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		38F88B0DEFCD697B7107DE9F81C7D459 /* YPDemoLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPDemoLib-dummy.m"; sourceTree = "<group>"; };
-		3EC8790B1EDADA9DB5C35792B7926407 /* YPDemoLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPDemoLib-prefix.pch"; sourceTree = "<group>"; };
+		20FD1F1DA6955D7ED52C226266F2392C /* YPDemoLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YPDemoLib.bundle; path = "YPDemoLib-YPDemoLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2949FDD6DB2E12F242A5B19CE9EFC36B /* Pods_YPDemoLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YPDemoLib_Tests.framework; path = "Pods-YPDemoLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F259D38F457E26BC7F6095F4CF671E /* YPDemoLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YPDemoLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		331CFF21924828B56D56A5F365501E58 /* YPImageVc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPImageVc.h; path = YPDemoLib/YPImageVc/YPImageVc.h; sourceTree = "<group>"; };
 		3F883CDB87150357E25EEFE79B973393 /* Pods-YPDemoLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPDemoLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		4E8D5402216C8ED100FEC37A /* NSString+DEAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DEAdd.m"; sourceTree = "<group>"; };
-		4E8D5403216C8ED100FEC37A /* NSString+DEAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DEAdd.h"; sourceTree = "<group>"; };
-		4E8D5408216C8EF600FEC37A /* YPImageVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPImageVc.h; sourceTree = "<group>"; };
-		4E8D5409216C8EF600FEC37A /* YPImageVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPImageVc.m; sourceTree = "<group>"; };
-		4E8D540C216C8F0500FEC37A /* YPLoginVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPLoginVc.h; sourceTree = "<group>"; };
-		4E8D540D216C8F0500FEC37A /* YPLoginVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLoginVc.m; sourceTree = "<group>"; };
-		4E8D540E216C8F0500FEC37A /* YPLoginVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YPLoginVc.xib; sourceTree = "<group>"; };
+		48EAB8BECCCAD9623F552055880EC609 /* YPLoginVc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YPLoginVc.h; path = YPDemoLib/YPLoginVc/YPLoginVc.h; sourceTree = "<group>"; };
+		4D43A065206E0FB95FA0A1C635C93DB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5369927BA389E111B021C44953E01358 /* YPLoginVc.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = YPLoginVc.xib; path = YPDemoLib/YPLoginVc/Xib/YPLoginVc.xib; sourceTree = "<group>"; };
 		55903CE16355533EA3FD2100AF654E33 /* Pods-YPDemoLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YPDemoLib_Example-dummy.m"; sourceTree = "<group>"; };
 		5636DBB842148243E17706420843F78C /* Pods-YPDemoLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPDemoLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5B4FE8C4BFF64510F85A6EFBD38942D0 /* YPDemoLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPDemoLib.xcconfig; sourceTree = "<group>"; };
+		668C8CF17ABA2D710A000D6E3168BD52 /* YPDemoLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YPDemoLib-Info.plist"; sourceTree = "<group>"; };
 		6817BA973AF978442758F20369A9BF19 /* Pods-YPDemoLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPDemoLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7104D8D4FE138A2045813C9513F864FE /* Pods_YPDemoLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPDemoLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		688D4B4EDBBBA0072DDC931CA09121A1 /* NSString+DEAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DEAdd.h"; path = "YPDemoLib/Category/NSString+DEAdd.h"; sourceTree = "<group>"; };
+		6C70F426FD8AA14F331D24C70A86C483 /* YPDemoLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPDemoLib-dummy.m"; sourceTree = "<group>"; };
+		7129D2C25ABDBEA22B74D86A5629C844 /* YPDemoLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPDemoLib-umbrella.h"; sourceTree = "<group>"; };
 		799D8BD6C1EBF1A8DC7C110EA5DFBEA2 /* Pods-YPDemoLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YPDemoLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		88FA8E9B7AB66A0468D61586076EBF65 /* YPDemoLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YPDemoLib-Info.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AB8DFDB8BB9556969194998BB2EF5B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7FAF386874E8C9788804E3BDA883141D /* YPDemoLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPDemoLib-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4C28DB766C1D38FCC40095D8655208D /* Pods-YPDemoLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YPDemoLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		B53F5E629A0FBEED7691FF2F4C979D96 /* YPDemoLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YPDemoLib.framework; path = YPDemoLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7AB6333DAC18532D002C9C9291A6C12 /* YPLoginVc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPLoginVc.m; path = YPDemoLib/YPLoginVc/YPLoginVc.m; sourceTree = "<group>"; };
+		B7FC233148CE5F42C500F3F2EDA0B710 /* Pods_YPDemoLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YPDemoLib_Example.framework; path = "Pods-YPDemoLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85454EA41D9C318C5DFA797234592ED /* Pods-YPDemoLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPDemoLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B8FB473DC075F690E6E9DCC8BA085792 /* Pods-YPDemoLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YPDemoLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD0773896AEA759911EF424B72132CBF /* Pods-YPDemoLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YPDemoLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C92761B9407612B7671A7260A380990D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C97B20F0FFF04E58B0DA5141EBE2A1B0 /* YPDemoLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YPDemoLib.modulemap; sourceTree = "<group>"; };
+		E59B66BDAEDD47302D19F8D6174C5BD5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E9307F762EEC4CDE2C6254BDB2748A27 /* Pods-YPDemoLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPDemoLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E992735CA2F7C732B7F60C7EDA614F4E /* Pods-YPDemoLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPDemoLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EAD900B7C26F8CEC0C9958A56FA83C69 /* Pods_YPDemoLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPDemoLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99F6AA45B290ACB44B6F8B494E5D06C /* ResourceBundle-YPDemoLib-YPDemoLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YPDemoLib-YPDemoLib-Info.plist"; sourceTree = "<group>"; };
 		EFFD7C64D888A4F7370B60C4815C4A12 /* Pods-YPDemoLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YPDemoLib_Example.modulemap"; sourceTree = "<group>"; };
-		F8AF25C94E3D25EA3CDAAAE24F31A8F6 /* YPDemoLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YPDemoLib.modulemap; sourceTree = "<group>"; };
-		FC493AD39B70F4CF3F015AD142827AD3 /* YPDemoLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YPDemoLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8ABD848F66D6761DDB3727DDD18C13B /* YPDemoLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPDemoLib.xcconfig; sourceTree = "<group>"; };
+		FD171AB12F93694841405F340D351B3F /* YPImageVc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YPImageVc.m; path = YPDemoLib/YPImageVc/YPImageVc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				85BCD731B6EF22939470333D60470CC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C390A927F7FD467C81F71F99B1CCF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,14 +128,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F8990FBD35365F18F21456A7D6162C5 /* Pod */ = {
+		00D24DA1B22506840328DDBBB7D63C6B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C92761B9407612B7671A7260A380990D /* LICENSE */,
-				9AB8DFDB8BB9556969194998BB2EF5B4 /* README.md */,
-				FC493AD39B70F4CF3F015AD142827AD3 /* YPDemoLib.podspec */,
+				4D43A065206E0FB95FA0A1C635C93DB4 /* LICENSE */,
+				E59B66BDAEDD47302D19F8D6174C5BD5 /* README.md */,
+				29F259D38F457E26BC7F6095F4CF671E /* YPDemoLib.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		1480D80B4D4DF65B063A83234707F117 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5369927BA389E111B021C44953E01358 /* YPLoginVc.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		14C3826307C3E358EEBE4507E8B5A85C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A746864E58B2C4A676E71E08AEE61C50 /* YPDemoLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		270F413121557A7989EBCAC8558FDF75 /* YPImageVc */ = {
+			isa = PBXGroup;
+			children = (
+				331CFF21924828B56D56A5F365501E58 /* YPImageVc.h */,
+				FD171AB12F93694841405F340D351B3F /* YPImageVc.m */,
+			);
+			name = YPImageVc;
 			sourceTree = "<group>";
 		};
 		2CF220E5D5F1E7B60FA6F9D15B364002 /* Pods-YPDemoLib_Example */ = {
@@ -138,37 +180,6 @@
 			path = "Target Support Files/Pods-YPDemoLib_Example";
 			sourceTree = "<group>";
 		};
-		4E8D5401216C8ED100FEC37A /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				4E8D5402216C8ED100FEC37A /* NSString+DEAdd.m */,
-				4E8D5403216C8ED100FEC37A /* NSString+DEAdd.h */,
-			);
-			name = Category;
-			path = YPDemoLib/Classes/Category;
-			sourceTree = "<group>";
-		};
-		4E8D5404216C8ED100FEC37A /* YPLoginVc */ = {
-			isa = PBXGroup;
-			children = (
-				4E8D540C216C8F0500FEC37A /* YPLoginVc.h */,
-				4E8D540D216C8F0500FEC37A /* YPLoginVc.m */,
-				4E8D540E216C8F0500FEC37A /* YPLoginVc.xib */,
-			);
-			name = YPLoginVc;
-			path = YPDemoLib/Classes/YPLoginVc;
-			sourceTree = "<group>";
-		};
-		4E8D5405216C8ED100FEC37A /* YPImageVc */ = {
-			isa = PBXGroup;
-			children = (
-				4E8D5408216C8EF600FEC37A /* YPImageVc.h */,
-				4E8D5409216C8EF600FEC37A /* YPImageVc.m */,
-			);
-			name = YPImageVc;
-			path = YPDemoLib/Classes/YPImageVc;
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,47 +188,47 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6B763C2A37BD3F43E77A4FD34A541EAE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				688D4B4EDBBBA0072DDC931CA09121A1 /* NSString+DEAdd.h */,
+				0FA31EE373CAA7D7739511C6E839B9A2 /* NSString+DEAdd.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A94ED0D61AC16D5B4A18D7EA88FF60D9 /* Development Pods */,
+				14C3826307C3E358EEBE4507E8B5A85C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8ABAB2F54FFF1BB9CA6AB686709A9CCC /* Products */,
+				C22574F524DBB3F73B393D4C9E299DF8 /* Products */,
 				CAFDE3C30C144D6FE591AC8E273FCBAE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8297B6995D23D60FFC7C59659692531F /* Support Files */ = {
+		7F2EB3E3EA6E5748F4AE36EF85A0EB7F /* YPLoginVc */ = {
 			isa = PBXGroup;
 			children = (
-				F8AF25C94E3D25EA3CDAAAE24F31A8F6 /* YPDemoLib.modulemap */,
-				5B4FE8C4BFF64510F85A6EFBD38942D0 /* YPDemoLib.xcconfig */,
-				38F88B0DEFCD697B7107DE9F81C7D459 /* YPDemoLib-dummy.m */,
-				88FA8E9B7AB66A0468D61586076EBF65 /* YPDemoLib-Info.plist */,
-				3EC8790B1EDADA9DB5C35792B7926407 /* YPDemoLib-prefix.pch */,
-				0A145947A5BA2F2C1F7D3F0CF01D3AF7 /* YPDemoLib-umbrella.h */,
+				48EAB8BECCCAD9623F552055880EC609 /* YPLoginVc.h */,
+				B7AB6333DAC18532D002C9C9291A6C12 /* YPLoginVc.m */,
+				1480D80B4D4DF65B063A83234707F117 /* Resources */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YPDemoLib";
+			name = YPLoginVc;
 			sourceTree = "<group>";
 		};
-		8ABAB2F54FFF1BB9CA6AB686709A9CCC /* Products */ = {
+		A746864E58B2C4A676E71E08AEE61C50 /* YPDemoLib */ = {
 			isa = PBXGroup;
 			children = (
-				7104D8D4FE138A2045813C9513F864FE /* Pods_YPDemoLib_Example.framework */,
-				EAD900B7C26F8CEC0C9958A56FA83C69 /* Pods_YPDemoLib_Tests.framework */,
-				1573799C1B7B5ACA0F2FAADA033834EE /* YPDemoLib.framework */,
+				6B763C2A37BD3F43E77A4FD34A541EAE /* Category */,
+				00D24DA1B22506840328DDBBB7D63C6B /* Pod */,
+				BE56E67D1279795F115E954173E341EC /* Support Files */,
+				270F413121557A7989EBCAC8558FDF75 /* YPImageVc */,
+				7F2EB3E3EA6E5748F4AE36EF85A0EB7F /* YPLoginVc */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A94ED0D61AC16D5B4A18D7EA88FF60D9 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E258D0A497A972E32665B558291F9BE6 /* YPDemoLib */,
-			);
-			name = "Development Pods";
+			name = YPDemoLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -226,6 +237,32 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE56E67D1279795F115E954173E341EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E99F6AA45B290ACB44B6F8B494E5D06C /* ResourceBundle-YPDemoLib-YPDemoLib-Info.plist */,
+				C97B20F0FFF04E58B0DA5141EBE2A1B0 /* YPDemoLib.modulemap */,
+				F8ABD848F66D6761DDB3727DDD18C13B /* YPDemoLib.xcconfig */,
+				6C70F426FD8AA14F331D24C70A86C483 /* YPDemoLib-dummy.m */,
+				668C8CF17ABA2D710A000D6E3168BD52 /* YPDemoLib-Info.plist */,
+				7FAF386874E8C9788804E3BDA883141D /* YPDemoLib-prefix.pch */,
+				7129D2C25ABDBEA22B74D86A5629C844 /* YPDemoLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YPDemoLib";
+			sourceTree = "<group>";
+		};
+		C22574F524DBB3F73B393D4C9E299DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC233148CE5F42C500F3F2EDA0B710 /* Pods_YPDemoLib_Example.framework */,
+				2949FDD6DB2E12F242A5B19CE9EFC36B /* Pods_YPDemoLib_Tests.framework */,
+				20FD1F1DA6955D7ED52C226266F2392C /* YPDemoLib.bundle */,
+				B53F5E629A0FBEED7691FF2F4C979D96 /* YPDemoLib.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CAFDE3C30C144D6FE591AC8E273FCBAE /* Targets Support Files */ = {
@@ -253,30 +290,9 @@
 			path = "Target Support Files/Pods-YPDemoLib_Tests";
 			sourceTree = "<group>";
 		};
-		E258D0A497A972E32665B558291F9BE6 /* YPDemoLib */ = {
-			isa = PBXGroup;
-			children = (
-				4E8D5401216C8ED100FEC37A /* Category */,
-				4E8D5405216C8ED100FEC37A /* YPImageVc */,
-				4E8D5404216C8ED100FEC37A /* YPLoginVc */,
-				1F8990FBD35365F18F21456A7D6162C5 /* Pod */,
-				8297B6995D23D60FFC7C59659692531F /* Support Files */,
-			);
-			name = YPDemoLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0217FE846D74F3A84C06FC3C52D22573 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E8355DB413A3DEB4807218757D5DF9A /* YPDemoLib-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7B1DFC544EFDC65AA539916858520E6F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,16 +305,41 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E8D540F216C8F0500FEC37A /* YPLoginVc.h in Headers */,
 				5EF273BB9820A20B093D07E1B74E62D6 /* Pods-YPDemoLib_Example-umbrella.h in Headers */,
-				4E8D5407216C8ED100FEC37A /* NSString+DEAdd.h in Headers */,
-				4E8D540A216C8EF600FEC37A /* YPImageVc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383639E7923473259CF5849B3C32BD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474FCF2647C3FEF2B1920EDE374313F2 /* NSString+DEAdd.h in Headers */,
+				1D6FE1882CD2A41D6281A17F6D94D07C /* YPDemoLib-umbrella.h in Headers */,
+				DFDA8EA4AF776CA5FCA3703EDB4EE9FF /* YPImageVc.h in Headers */,
+				E118DB90CF17F9E456B14DF2BAA07C14 /* YPLoginVc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		02423DF29148D3FD5C2DA1FBB713BF65 /* YPDemoLib-YPDemoLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD36C8470CC46B4024BC0334D1AB4F4F /* Build configuration list for PBXNativeTarget "YPDemoLib-YPDemoLib" */;
+			buildPhases = (
+				CDB42C9B36800E892F62293B55053527 /* Sources */,
+				64C390A927F7FD467C81F71F99B1CCF5 /* Frameworks */,
+				EB82CE297C472C732275DB68EB1A5832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YPDemoLib-YPDemoLib";
+			productName = "YPDemoLib-YPDemoLib";
+			productReference = 20FD1F1DA6955D7ED52C226266F2392C /* YPDemoLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		4914249080139F3FB439AC03D2359B73 /* Pods-YPDemoLib_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE9447A4001EFF92FA35066414954885 /* Build configuration list for PBXNativeTarget "Pods-YPDemoLib_Example" */;
@@ -315,25 +356,26 @@
 			);
 			name = "Pods-YPDemoLib_Example";
 			productName = "Pods-YPDemoLib_Example";
-			productReference = 7104D8D4FE138A2045813C9513F864FE /* Pods_YPDemoLib_Example.framework */;
+			productReference = B7FC233148CE5F42C500F3F2EDA0B710 /* Pods_YPDemoLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		69C49ED6CBC9EE36DAB3ADCE74B1BC07 /* YPDemoLib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AABCD34DEC1A946B1EB12F63A77CF18C /* Build configuration list for PBXNativeTarget "YPDemoLib" */;
 			buildPhases = (
-				0217FE846D74F3A84C06FC3C52D22573 /* Headers */,
-				4B9B598891041811C121BEE3E9A292A0 /* Sources */,
+				F383639E7923473259CF5849B3C32BD6 /* Headers */,
+				5E3F7AB72F18B2E7947C1B66B2711CE6 /* Sources */,
 				DD477F1DCE67701B32E27CA3FD036A58 /* Frameworks */,
-				FE1E995C0A9DCFA1E3E37C07AB4FD6E5 /* Resources */,
+				422B52B8AF41020B3E24406BD111BB68 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				51EC37A62E2D85701AFDDDA89DDA7492 /* PBXTargetDependency */,
 			);
 			name = YPDemoLib;
 			productName = YPDemoLib;
-			productReference = 1573799C1B7B5ACA0F2FAADA033834EE /* YPDemoLib.framework */;
+			productReference = B53F5E629A0FBEED7691FF2F4C979D96 /* YPDemoLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E8899D279D5B6CEB1D3E9500C890A2E0 /* Pods-YPDemoLib_Tests */ = {
@@ -352,7 +394,7 @@
 			);
 			name = "Pods-YPDemoLib_Tests";
 			productName = "Pods-YPDemoLib_Tests";
-			productReference = EAD900B7C26F8CEC0C9958A56FA83C69 /* Pods_YPDemoLib_Tests.framework */;
+			productReference = 2949FDD6DB2E12F242A5B19CE9EFC36B /* Pods_YPDemoLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -372,18 +414,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8ABAB2F54FFF1BB9CA6AB686709A9CCC /* Products */;
+			productRefGroup = C22574F524DBB3F73B393D4C9E299DF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4914249080139F3FB439AC03D2359B73 /* Pods-YPDemoLib_Example */,
 				E8899D279D5B6CEB1D3E9500C890A2E0 /* Pods-YPDemoLib_Tests */,
 				69C49ED6CBC9EE36DAB3ADCE74B1BC07 /* YPDemoLib */,
+				02423DF29148D3FD5C2DA1FBB713BF65 /* YPDemoLib-YPDemoLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		422B52B8AF41020B3E24406BD111BB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F255BA659B8A8DE7BCA809F09750774 /* YPDemoLib.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E42DEA721972AB4363CA1A7AF7EBC61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,25 +446,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E8D5411216C8F0500FEC37A /* YPLoginVc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE1E995C0A9DCFA1E3E37C07AB4FD6E5 /* Resources */ = {
+		EB82CE297C472C732275DB68EB1A5832 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2AA6E65278D24819BA247724C0AE08B /* YPLoginVc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4B9B598891041811C121BEE3E9A292A0 /* Sources */ = {
+		5E3F7AB72F18B2E7947C1B66B2711CE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA93B5F138BC7617F269502EEA00B82 /* YPDemoLib-dummy.m in Sources */,
+				E4E7087564D05C1ABB9712F064690F91 /* NSString+DEAdd.m in Sources */,
+				5FBA05705B184759292791E10764701A /* YPDemoLib-dummy.m in Sources */,
+				76167617C390BF636E6FCA2682B7D8A6 /* YPImageVc.m in Sources */,
+				277D7162017622D42B126E8625357980 /* YPLoginVc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,16 +483,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E8D5406216C8ED100FEC37A /* NSString+DEAdd.m in Sources */,
-				4E8D5410216C8F0500FEC37A /* YPLoginVc.m in Sources */,
 				894B5CE194A4F00EB139B4030FC4D5D0 /* Pods-YPDemoLib_Example-dummy.m in Sources */,
-				4E8D540B216C8EF600FEC37A /* YPImageVc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB42C9B36800E892F62293B55053527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		51EC37A62E2D85701AFDDDA89DDA7492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YPDemoLib-YPDemoLib";
+			target = 02423DF29148D3FD5C2DA1FBB713BF65 /* YPDemoLib-YPDemoLib */;
+			targetProxy = BB0E855158D44AAE09E8B4D435290C96 /* PBXContainerItemProxy */;
+		};
 		BF3343308346A47E839B389FDBE1A1E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YPDemoLib_Example";
@@ -454,7 +518,90 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+		52B0D2F62BBB0CB50E0BD7688C076B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8ABD848F66D6761DDB3727DDD18C13B /* YPDemoLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YPDemoLib";
+				INFOPLIST_FILE = "Target Support Files/YPDemoLib/ResourceBundle-YPDemoLib-YPDemoLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YPDemoLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		667D4BFE0159A1B62414F3E6C99075A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5636DBB842148243E17706420843F78C /* Pods-YPDemoLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YPDemoLib_Tests/Pods-YPDemoLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YPDemoLib_Tests/Pods-YPDemoLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7478F4DE47481C6E8C90720AD88E2B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85454EA41D9C318C5DFA797234592ED /* Pods-YPDemoLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YPDemoLib_Example/Pods-YPDemoLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YPDemoLib_Example/Pods-YPDemoLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -504,7 +651,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,76 +660,9 @@
 			};
 			name = Release;
 		};
-		5FF61217B406923B1820BED371C74800 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5636DBB842148243E17706420843F78C /* Pods-YPDemoLib_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YPDemoLib_Tests/Pods-YPDemoLib_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YPDemoLib_Tests/Pods-YPDemoLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		77788DE8454DA96C5D10DFD521E3AE40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E992735CA2F7C732B7F60C7EDA614F4E /* Pods-YPDemoLib_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YPDemoLib_Tests/Pods-YPDemoLib_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YPDemoLib_Tests/Pods-YPDemoLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9779E1F007A10F14CDDB605F1BB9E04B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B4FE8C4BFF64510F85A6EFBD38942D0 /* YPDemoLib.xcconfig */;
+			baseConfigurationReference = F8ABD848F66D6761DDB3727DDD18C13B /* YPDemoLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -608,12 +688,28 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEFDC31B91A321E19B2CC8258AA3065A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8ABD848F66D6761DDB3727DDD18C13B /* YPDemoLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YPDemoLib";
+				INFOPLIST_FILE = "Target Support Files/YPDemoLib/ResourceBundle-YPDemoLib-YPDemoLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YPDemoLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 		BB6B5D9077170227776339C91BF2B76B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B4FE8C4BFF64510F85A6EFBD38942D0 /* YPDemoLib.xcconfig */;
+			baseConfigurationReference = F8ABD848F66D6761DDB3727DDD18C13B /* YPDemoLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -641,7 +737,7 @@
 			};
 			name = Debug;
 		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -694,7 +790,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -705,7 +801,40 @@
 			};
 			name = Debug;
 		};
-		DBD58EEB99DFA0877426A6A3738EA403 /* Release */ = {
+		DAA223A641C09F99AC146ED4919E126E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E992735CA2F7C732B7F60C7EDA614F4E /* Pods-YPDemoLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YPDemoLib_Tests/Pods-YPDemoLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YPDemoLib_Tests/Pods-YPDemoLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F84A4B8037A4BC687EA2B6D89063F459 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6817BA973AF978442758F20369A9BF19 /* Pods-YPDemoLib_Example.release.xcconfig */;
 			buildSettings = {
@@ -721,7 +850,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-YPDemoLib_Example/Pods-YPDemoLib_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YPDemoLib_Example/Pods-YPDemoLib_Example.modulemap";
@@ -739,47 +868,14 @@
 			};
 			name = Release;
 		};
-		FF59CE36F33422ABDEFA04824AC9D898 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B85454EA41D9C318C5DFA797234592ED /* Pods-YPDemoLib_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YPDemoLib_Example/Pods-YPDemoLib_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YPDemoLib_Example/Pods-YPDemoLib_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -787,8 +883,8 @@
 		9CBC850679A668E4D7841FE6090D7890 /* Build configuration list for PBXNativeTarget "Pods-YPDemoLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				77788DE8454DA96C5D10DFD521E3AE40 /* Debug */,
-				5FF61217B406923B1820BED371C74800 /* Release */,
+				DAA223A641C09F99AC146ED4919E126E /* Debug */,
+				667D4BFE0159A1B62414F3E6C99075A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -802,11 +898,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AD36C8470CC46B4024BC0334D1AB4F4F /* Build configuration list for PBXNativeTarget "YPDemoLib-YPDemoLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B0D2F62BBB0CB50E0BD7688C076B45 /* Debug */,
+				AEFDC31B91A321E19B2CC8258AA3065A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AE9447A4001EFF92FA35066414954885 /* Build configuration list for PBXNativeTarget "Pods-YPDemoLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF59CE36F33422ABDEFA04824AC9D898 /* Debug */,
-				DBD58EEB99DFA0877426A6A3738EA403 /* Release */,
+				7478F4DE47481C6E8C90720AD88E2B51 /* Debug */,
+				F84A4B8037A4BC687EA2B6D89063F459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

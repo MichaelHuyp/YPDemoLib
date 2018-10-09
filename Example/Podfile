@@ -4,6 +4,9 @@ source 'git@git.xiaojukeji.com:ios/cocoapods-specs.git'
 
 
 target 'YPDemoLib_Example' do
+    
+  use_frameworks!
+    
   pod 'YPDemoLib', :path => '../'
 
   target 'YPDemoLib_Tests' do
