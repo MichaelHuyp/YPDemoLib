@@ -1,0 +1,6 @@
+framework module Pods_YPDemoLib_Tests {
+  umbrella header "Pods-YPDemoLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

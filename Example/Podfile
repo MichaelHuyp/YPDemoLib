@@ -1,4 +1,7 @@
-use_frameworks!
+source 'git@git.xiaojukeji.com:one-ios/Specs.git'
+source 'git@git.xiaojukeji.com:mirror-pod/Spec.git'
+source 'git@git.xiaojukeji.com:ios/cocoapods-specs.git'
+
 
 target 'YPDemoLib_Example' do
   pod 'YPDemoLib', :path => '../'

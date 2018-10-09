@@ -1,0 +1,6 @@
+framework module YPDemoLib {
+  umbrella header "YPDemoLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

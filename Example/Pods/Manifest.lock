@@ -1,0 +1,16 @@
+PODS:
+  - YPDemoLib (0.1.0)
+
+DEPENDENCIES:
+  - YPDemoLib (from `../`)
+
+EXTERNAL SOURCES:
+  YPDemoLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YPDemoLib: eaa2f4f0ae713bbcac148718e81999ca6094965c
+
+PODFILE CHECKSUM: 87f96e340f942e380b1f74ed00cec9564ac6090b
+
+COCOAPODS: 1.6.0.beta.1

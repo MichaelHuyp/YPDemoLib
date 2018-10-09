@@ -1,0 +1,22 @@
+{
+  "name": "YPDemoLib",
+  "version": "0.1.0",
+  "summary": "A short description of YPDemoLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/胡云鹏/YPDemoLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "胡云鹏": "huyunpeng@didichuxing.com"
+  },
+  "source": {
+    "git": "https://github.com/胡云鹏/YPDemoLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YPDemoLib/Classes/**/*"
+}
