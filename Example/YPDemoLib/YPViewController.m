@@ -8,9 +8,7 @@
 
 #import "YPViewController.h"
 #import "NSString+DEAdd.h"
-#import "YPImageVc.h"
-#import "YPLoginVc.h"
-#import "DEVc.h"
+#import "LoadResourceDemoVc.h"
 
 @interface YPViewController ()
 
@@ -21,15 +19,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSLog(@"%@",NSHomeDirectory());
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-//    YPImageVc YPLoginVc
-    YPLoginVc *vc = [YPLoginVc new];
-                     
+    LoadResourceDemoVc *vc = [LoadResourceDemoVc new];
+    
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)demo
+{
+    //    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle bundleForClass:NSClassFromString(@"YPLoginVc")] URLForResource:@"YPDemoLib" withExtension:@"bundle"]];
+    //    YPLoginVc *vc = [[YPLoginVc alloc] initWithNibName:@"YPLoginVc" bundle:bundle];
+    //    [self.navigationController pushViewController:vc animated:YES];
+
 }
 
 @end

@@ -11,8 +11,8 @@
 #endif
 
 #import "NSString+DEAdd.h"
-#import "YPImageVc.h"
-#import "YPLoginVc.h"
+#import "LoadResourceDemoVc.h"
+#import "YPDemoVc.h"
 
 FOUNDATION_EXPORT double YPDemoLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char YPDemoLibVersionString[];

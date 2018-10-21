@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		10656F414A89E9640D2306BD /* Pods_YPDemoLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD43531B5DA8EA8289289A6B /* Pods_YPDemoLib_Tests.framework */; };
-		4E8D5424216CF08600FEC37A /* DEVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D5422216CF08600FEC37A /* DEVc.m */; };
-		4E8D5425216CF08600FEC37A /* DEVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8D5423216CF08600FEC37A /* DEVc.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,9 +38,6 @@
 
 /* Begin PBXFileReference section */
 		2E902FA74179A72C7E06CD5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4E8D5421216CF08600FEC37A /* DEVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEVc.h; sourceTree = "<group>"; };
-		4E8D5422216CF08600FEC37A /* DEVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEVc.m; sourceTree = "<group>"; };
-		4E8D5423216CF08600FEC37A /* DEVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DEVc.xib; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YPDemoLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPDemoLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -145,9 +140,6 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				4E8D5421216CF08600FEC37A /* DEVc.h */,
-				4E8D5422216CF08600FEC37A /* DEVc.m */,
-				4E8D5423216CF08600FEC37A /* DEVc.xib */,
 			);
 			name = "Example for YPDemoLib";
 			path = YPDemoLib;
@@ -285,7 +277,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				4E8D5425216CF08600FEC37A /* DEVc.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -379,7 +370,6 @@
 				6003F59E195388D20070C39A /* YPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				4E8D5424216CF08600FEC37A /* DEVc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

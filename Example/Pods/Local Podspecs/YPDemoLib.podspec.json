@@ -24,15 +24,11 @@
       "source_files": "YPDemoLib/Category/*"
     },
     {
-      "name": "YPImageVc",
-      "source_files": "YPDemoLib/YPImageVc/*"
-    },
-    {
-      "name": "YPLoginVc",
-      "source_files": "YPDemoLib/YPLoginVc/*",
+      "name": "LoadResourceDemo",
+      "source_files": "YPDemoLib/LoadResourceDemo/*",
       "resource_bundles": {
         "YPDemoLib": [
-          "YPDemoLib/YPLoginVc/Xib/*"
+          "YPDemoLib/LoadResourceDemo/Resource/*"
         ]
       }
     }

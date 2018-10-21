@@ -35,16 +35,14 @@ Pod::Spec.new do |s|
     ss.source_files = 'YPDemoLib/Category/*'
   end
 
-    s.subspec 'YPImageVc' do |ss|
-    ss.source_files = 'YPDemoLib/YPImageVc/*'
+  s.subspec 'LoadResourceDemo' do |ss|
+    ss.source_files = 'YPDemoLib/LoadResourceDemo/*'
+    ss.resource_bundles = {
+      'YPDemoLib' => ["YPDemoLib/LoadResourceDemo/Resource/*"]
+    }
   end
 
-    s.subspec 'YPLoginVc' do |ss|
-    ss.source_files = 'YPDemoLib/YPLoginVc/*'
-    ss.resource_bundles = {
-    'YPDemoLib' => ['YPDemoLib/YPLoginVc/Xib/*']
-  }
-  end
+
 
 
 

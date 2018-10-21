@@ -1,11 +1,9 @@
 PODS:
   - YPDemoLib (0.1.0):
     - YPDemoLib/Category (= 0.1.0)
-    - YPDemoLib/YPImageVc (= 0.1.0)
-    - YPDemoLib/YPLoginVc (= 0.1.0)
+    - YPDemoLib/LoadResourceDemo (= 0.1.0)
   - YPDemoLib/Category (0.1.0)
-  - YPDemoLib/YPImageVc (0.1.0)
-  - YPDemoLib/YPLoginVc (0.1.0)
+  - YPDemoLib/LoadResourceDemo (0.1.0)
 
 DEPENDENCIES:
   - YPDemoLib (from `../`)
@@ -15,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YPDemoLib: 30180ab5e9b33daacf07af576bb007103feed1fd
+  YPDemoLib: 96c07251d57d18ccc91c9682fb53a235493a3b96
 
 PODFILE CHECKSUM: 4cf49dc8f3aef01539839f35b966c3c06f23b58d
 

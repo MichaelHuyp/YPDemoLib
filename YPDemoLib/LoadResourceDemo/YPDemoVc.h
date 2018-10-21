@@ -1,15 +1,15 @@
 //
-//  YPImageVc.h
+//  YPDemoVc.h
 //  Pods-YPDemoLib_Example
 //
-//  Created by 胡云鹏 on 2018/10/9.
+//  Created by 胡云鹏 on 2018/10/21.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YPImageVc : UIViewController
+@interface YPDemoVc : UIViewController
 
 @end
 
